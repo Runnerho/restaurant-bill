@@ -1,0 +1,122 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: #fff;
+}
+
+section {
+  width: 70%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 50px auto;
+}
+
+.box-prof {
+  width: 30%;
+}
+
+.prof-item {
+  display: flex;
+  margin: 10px 0;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.prof-item-active {
+  background-color: #333;
+}
+
+.prof-item:hover {
+  background-color: rgb(51, 51, 51);
+}
+
+.prof-item .photo {
+  width: 20%;
+}
+
+.prof-item .photo img {
+  width: 75%;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.btn {
+  border: none;
+  background-color: orangered;
+  padding: 5px 3px;
+  margin-right: 2px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.adds {
+  margin-top: 20px;
+  text-align: right;
+}
+
+.add-new {
+  background-color: rgba(237, 197, 238, 0.055);
+  padding: 0 5px 20px 5px;
+  border-radius: 10px;
+}
+
+.add-new .add-new-details {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.add-new .btn-add-cancel {
+  text-align: right;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.add-new .btn-add-cancel .btn-add-button {
+  width: 40%;
+}
+.add-new .btn-add-cancel .btn-cancel-button {
+  width: 40%;
+  background-color: #ccc;
+}
+
+.details {
+  width: 40%;
+  height: 230px;
+  background-color: rgba(237, 197, 238, 0.055);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.details div {
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.details div input,
+.details div span,
+.details div select {
+  width: 30%;
+  border-radius: 3px;
+}
+
+.details div span {
+  background-color: #333;
+}
+
+.green {
+  color: #0f0;
+}
+.red {
+  color: #f00;
+}
